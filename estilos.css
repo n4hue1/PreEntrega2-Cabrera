@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* empieza estilos header */
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(206, 160, 51);
+    border-bottom: 6px solid black;
+    
+}
+
+.logo{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+
+header ul{
+    display: inline-block;
+}
+
+
+header ul li{
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+.headerLi{
+    text-decoration: none;
+    
+}
+/* fin header */
+/* empieza main */
+
+main{
+    background-color: rgb(206, 160, 51);
+    height:fit-content;
+    width: auto;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.nuestroMenu{
+    font-size: 35px;
+    height: fit-content;
+    width: fit-content;
+    padding: 60px;
+    display: inline-block;
+}
+
+main div ul{
+    font-size: 20px;
+    
+}
+
+.nuestrasHamburgueasa{
+    font-size: 35px;
+    display: inline-block;
+    height: fit-content;
+    width: auto;
+}
+
+.burger1{
+    height: 400px;
+    width: 400px;
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.burger2{
+    height: 400px;
+    width: 400px;
+    background-image: url(./imgs/burger-2-1835192_1920.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.burger3{
+    height: 400px;
+    width: 400px;
+    background-image: url(./imgs/burger-3-2635035_1920.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.burger4{
+    height: 400px;
+    width: 400px;
+    background-image: url(./imgs/burger-4-2612137_1920.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+/* fin main */
+/* empieza nosotros */
+
+.nosotros{
+    height: 1000px;
+    width: auto;
+    background-image: url(./imgs/burger-9-3008950_1920.jpg);
+    background-size: cover;
+}
+.nosotrosTitulo{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.nosotrosInfo{
+    margin: 60px;
+    font-size:27px;
+    font-weight: 400;
+}
+/* fin nosotros */
+/* empieza footer */
+.footer{
+    height: 120px;
+    background-color: rgb(206, 160, 51);
+    border-top: solid 6px;
+}
+
+.logoFooter{
+    display: inline-block;
+    font-size: 60px;
+}
+
+.listaFooter{
+    display: inline-block;
+} 
+
+.logosRedes{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.map{
+    height: 100px;
+    width: 100px;
+}
+/* fin footer */
+/* Empeiza Pedir aqui */
+
+.mainPedirAqui{
+    background-color: rgb(206, 160, 51);
+    height:fit-content;
+    width: auto;
+}
+.tiposMenu{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.burgerCarne{
+    margin: 60px;
+}
+
+.carneMenu1{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+}
+
+.carneMenu2{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-2-1835192_1920.jpg);
+    background-size: cover;
+}
+
+.carneMenu3{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-3-2635035_1920.jpg);
+    background-size: cover;
+}
+
+.carneMenu4{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-4-2612137_1920.jpg);
+    background-size: cover;
+}
+
+.carneMenu5{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-5-2762431_1920.jpg);
+    background-size: cover;
+}
+
+.carneMenu6{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burger-6-5630646_1920.jpg);
+    background-size: cover;
+}
+
+.burgerPollo{
+    margin: 60px;
+}
+
+.polloMenu1{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burgerpollo-1-3141127_1920.jpg);
+    background-size: cover;
+}
+.polloMenu2{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burgerpollo-2-7628011_1920.png);
+    background-size: cover;
+    background-color: black;
+}
+.polloMenu3{
+    height: 170px;
+    width: 170px;
+    background-size: cover;
+    background-image: url(./imgs/burgerpollo-3-5939093_1920.jpg)
+}
+
+.vegetarianas{
+    margin: 60px;
+}
+
+.vegetarianasMenu1{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burgervegetariana-1-1352880_1920.jpg);
+    background-size: cover;
+}
+
+.vegetarianasMenu2{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burgerpollo-2-7628011_1920.png);
+    background-size: cover;
+}
+
+.vegetarianasMenu3{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/burgervegetariana-3-4614022_1920.jpg);
+    background-size: cover;
+}
+
+.acompaniamientos{
+    margin: 60px;
+}
+
+.acompaniamientoMenu1{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/acompaniamiento-1-1842294_1920.jpg);
+    background-size: cover;
+}
+
+.acompaniamientoMenu2{
+    height: 170px;
+    width: 170px;
+    background-image: url(./imgs/acompaniamiento-2-418238_1920.jpg);
+    background-size: cover;
+}
+
+.carrito{
+    background-color: aqua;
+    height: 500px;
+    width: 350px;
+}
+
+
+.tituloProductos{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.nuestraBurger1{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-7-2018627_1920.jpg);
+    background-size: cover;
+}
+
+.nuestraBurger2{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-8-2707320_1920.jpg);
+    background-size: cover;
+}
+
+.nuestraBurger3{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-9-3008950_1920.jpg);
+    background-size: cover;
+}
+
+.nuestraBurger4{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+}
+
+.nuestraBurger5{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-3-2635035_1920.jpg);
+    background-size: cover;
+}
+
+.nuestraBurger6{
+    height: 170px;
+    width: 350px;
+    background-image: url(./imgs/burger-2-1835192_1920.jpg);
+    background-size: cover;
+}
+
+.mainContacto{
+    background-color: rgb(206, 160, 51);
+    width: auto;
+    height: fit-content;
+}
+
+.podesEncontrarnos{
+    background-color:rgb(140, 100, 5);
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    border: solid 3px black;
+    margin-left: 30px;
+}
+
+.telefono{
+    background-color:rgb(140, 100, 5);
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    border: solid 3px black;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.app{
+    background-color:rgb(140, 100, 5);
+    height: 450px;
+    width: 300px;
+    font-size: 35px;
+    border:solid 3px black;
+    margin-left: 30px;
+}
+
+.faceboockC{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.instaC{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.twitterC{
+    font-size: 50px;
+    text-decoration: none;
+}
