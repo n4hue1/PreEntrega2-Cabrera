@@ -1,82 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./estilos.css">
     <link rel="shortcut icon" href="./imgs/hamburger-576419.svg" type="image/x-icon">
     <title>SmashB</title>
 </head>
+
 <body>
     <!-- principio header -->
     <!--  -->
     <header>
-        <div class="logo"> <strong>SmashB</strong></div>
-        <ul>
-            <li ><a class="headerLi" href="./pages/pediraqui.html">pedir aqui</a></li>
-            <li ><a class="headerLi" href="./pages/productos.html">productos</a></li>
-            <li ><a class="headerLi" href="./pages/novedades.html">novedades</a></li>
-            <li ><a class="headerLi" href="#nosotros">nosotros</a></li>
-            <li ><a class="headerLi" href="./pages/contacto.html">contacto</a></li>
-        </ul>
-        
+        <nav class="navbar navbar-expand-xl navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><span class="logo"><strong>SmashB</strong></span></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/pediraqui.html">pedir aqui</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/novedades.html">novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <!-- fin header -->
     <!-- principio main -->
     <main>
-        <h1 class="titulo"><strong>SmashB</strong></h1>
-        <div class="nuestroMenu">
-            <H2><strong>Nuestro Menu</strong></H2><br>
-            <ul>
-                <li>Hamburguesas</li><br> 
-                <li>Combos</li><br> 
-                <li>Sandwiches de pollo</li><br>
-                <li>Bebidas</li> 
-            </ul>
-        </div>
-        <div class="nuestrasHamburguesas">
-            <h2><strong>Nuestras Hamburgeusas</strong></h2>
-            <div class="burger1"></div>
-            <h3>asdadsada
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
-            <div class="burger2"></div>
-            <h3>asdadsada
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
-            <div class="burger3"></div>
-            <h3>asdadsada
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
-            <div class="burger4"></div>
-            <h3>asdadsada
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
+        <div class="nuestrasHamburguesas container-fluid row">
+            <h2 class="tituloNuestrasHamburguesas col-xl-12 col-md-12"><strong>Nuestras Hamburgeusas</strong></h2>
+
+            <div class="nuestroMenu col-xl-2 col-md-7">
+                <H2><strong>Nuestro Menu</strong></H2><br>
+                <ul>
+                    <li>Hamburguesas</li><br>
+                    <li>Combos</li><br>
+                    <li>Sandwiches de pollo</li><br>
+                    <li>Bebidas</li>
+                </ul>
+            </div>
+
+            <div class="contBurger1 col-xl-5 col-md-6">
+                <div class="burger1 "></div>
+                <h3>asdadsada</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur
+                    vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
+            </div>
+            <div class="contBurger2 col-xl-5 col-md-6">
+                <div class="burger2 "></div>
+                <h3>asdadsada</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur
+                    vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
+            </div>
+            <div class="vacio col-xl-2 col-md-0"></div>
+            <div class="contBurger3 col-xl-5 col-md-6">
+                <div class="burger3 "></div>
+                <h3>asdadsada</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur
+                    vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
+            </div>
+            <div class="contBurger4 col-xl-5 col-md-6">
+                <div class="burger4 "></div>
+                <h3>asdadsada</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit eveniet. Architecto pariatur
+                    vel ducimus voluptatibus consequatur at voluptatem ipsam?</p>
+            </div>
         </div>
     </main>
     <!-- fin main -->
     <!-- principio nosotros -->
-    <div class="nosotros" id="nosotros">
+    <div class="nosotros container-fluid" id="nosotros">
         <h2 class="nosotrosTitulo">Un poco sobre nosotros</h2>
-        <p class="nosotrosInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate velit explicabo dignissimos quae neque voluptatem. Quia recusandae corporis distinctio facilis dolor dolore, assumenda excepturi quam, ipsa obcaecati dolores error. Laboriosam corrupti enim at sunt nostrum deserunt cupiditate modi tenetur officia impedit maxime repudiandae nulla rerum consequuntur velit maiores unde quas fugit dicta libero explicabo, sint perspiciatis hic! Atque vero veniam aperiam autem adipisci esse iure necessitatibus hic ipsam quaerat, expedita quas, fuga consequatur nostrum dicta velit itaque fugit alias nulla, eaque eveniet ullam voluptatem! Non alias iure sit eaque nulla molestias ab, blanditiis, amet ipsum veritatis necessitatibus fugit distinctio nesciunt qui id expedita nobis, harum adipisci quas quo exercitationem numquam dignissimos quisquam assumenda? Eveniet ut totam ex quo nam dolorem dignissimos hic, enim ab, est quidem non vitae tenetur recusandae possimus a aperiam. Placeat consequuntur quas atque esse? Sed ipsum magnam error eveniet a sunt iusto laboriosam expedita unde fugit, odit repudiandae pariatur fugiat consectetur aliquam deleniti optio molestiae eum nostrum maiores, officia, molestias voluptas amet velit! Esse, incidunt architecto perferendis facere minima sit veniam neque possimus natus debitis iusto commodi similique repellat. Libero harum quisquam cumque porro atque consectetur repellendus id laboriosam quo enim doloremque nam, autem esse itaque eligendi impedit sint ducimus numquam! Temporibus veniam saepe hic nihil cumque esse fugiat nemo! Suscipit, voluptate. Voluptatem possimus minus inventore quo quia ut, totam eligendi, molestiae doloribus recusandae qui aut illo nihil saepe libero adipisci reiciendis vero consequatur sapiente perferendis. Labore ea laboriosam impedit repellendus temporibus quos distinctio doloribus eum fuga, deserunt commodi. Enim nemo quibusdam facilis obcaecati repellat perspiciatis consequuntur, dolores sed, repellendus accusantium in! Dignissimos aliquid recusandae iure consectetur voluptatibus ipsum minima dicta ex numquam a rerum optio atque ut, deserunt cum eveniet nostrum consequuntur alias sint distinctio illum accusamus maxime dolore voluptatem? Impedit autem nisi, iusto dicta facilis non reprehenderit labore aut aspernatur provident, suscipit assumenda minus harum, magni blanditiis ex minima laborum odit laudantium a totam ea. Provident, in adipisci nam officiis eaque consequatur ipsa officia deleniti dicta doloribus dolorum quidem impedit voluptates esse nesciunt sit perferendis exercitationem voluptate, rerum molestias praesentium aperiam fuga dignissimos. Delectus voluptatum doloribus, natus nesciunt eveniet vel, explicabo nostrum soluta nihil nam ullam, libero perferendis totam ad eius expedita. Pariatur numquam impedit, omnis dignissimos fugiat nemo eius recusandae eos suscipit velit ducimus qui eaque sint. Asperiores pariatur obcaecati possimus. Sequi, laudantium iure accusamus ipsam autem exercitationem nisi temporibus voluptatibus nemo?.</p>
+        <p class="nosotrosInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate velit explicabo
+            dignissimos quae neque voluptatem. Quia recusandae corporis distinctio facilis dolor dolore, assumenda
+            excepturi quam, ipsa obcaecati dolores error. Laboriosam corrupti enim at sunt nostrum deserunt cupiditate
+            modi tenetur officia impedit maxime repudiandae nulla rerum consequuntur velit maiores unde quas fugit dicta
+            libero explicabo, sint perspiciatis hic! Atque vero veniam aperiam autem adipisci esse iure necessitatibus
+            hic ipsam quaerat, expedita quas, fuga consequatur nostrum dicta velit itaque fugit alias nulla, eaque
+            eveniet ullam voluptatem! Non alias iure sit eaque nulla molestias ab, blanditiis, amet ipsum veritatis
+            necessitatibus fugit distinctio nesciunt qui id expedita nobis, harum adipisci quas quo exercitationem
+            numquam dignissimos quisquam assumenda? Eveniet ut totam ex quo nam dolorem dignissimos hic, enim ab, est
+            quidem non vitae tenetur recusandae possimus a aperiam. Placeat consequuntur quas atque esse? Sed ipsum
+            magnam error eveniet a sunt iusto laboriosam expedita unde fugit, odit repudiandae pariatur fugiat
+            consectetur aliquam deleniti optio molestiae eum nostrum maiores, officia, molestias voluptas amet velit!
+            Esse, incidunt architecto perferendis facere minima sit veniam neque possimus natus debitis iusto commodi
+            similique repellat. Libero harum quisquam cumque porro atque consectetur repellendus id laboriosam quo enim
+            doloremque nam, autem esse itaque eligendi impedit sint ducimus numquam! Temporibus veniam saepe hic nihil
+            cumque esse fugiat nemo! Suscipit, voluptate. Voluptatem possimus minus inventore quo quia ut, totam
+            eligendi, molestiae doloribus recusandae qui aut illo nihil saepe libero adipisci reiciendis vero
+            consequatur sapiente perferendis. Labore ea laboriosam impedit repellendus temporibus quos distinctio
+            doloribus eum fuga, deserunt commodi. Enim nemo quibusdam facilis obcaecati repellat perspiciatis
+            consequuntur, dolores sed, repellendus accusantium in! Dignissimos aliquid recusandae iure consectetur
+            voluptatibus ipsum minima dicta ex numquam a rerum optio atque ut, deserunt cum eveniet nostrum consequuntur
+            alias sint distinctio illum accusamus maxime dolore voluptatem? Impedit autem nisi, iusto dicta facilis non
+            reprehenderit labore aut aspernatur provident, suscipit assumenda minus harum, magni blanditiis ex minima
+            laborum odit laudantium a totam ea. Provident, in adipisci nam officiis eaque consequatur ipsa officia
+            deleniti dicta doloribus dolorum quidem impedit voluptates esse nesciunt sit perferendis exercitationem
+            voluptate, rerum molestias praesentium aperiam fuga dignissimos. Delectus voluptatum doloribus, natus
+            nesciunt eveniet vel, explicabo nostrum soluta nihil nam ullam, libero perferendis totam ad eius expedita.
+            Pariatur numquam impedit, omnis dignissimos fugiat nemo eius recusandae eos suscipit velit ducimus qui eaque
+            sint. Asperiores pariatur obcaecati possimus. Sequi, laudantium iure accusamus ipsam autem exercitationem
+            nisi temporibus voluptatibus nemo?.</p>
     </div>
     <!-- fin nosotros -->
     <!-- principio footer -->
-    <footer class="footer">
-        <div class="logoFooter"> <strong>SmashB</strong></div>
-        <ul >
-            <li class="listaFooter"><a class="headerLi" href="./pages/productos.html">productos</a></li>
-            <li class="listaFooter"><a class="headerLi" href="./pages/contacto.html">contacto</a></li>
+    <footer class="footer container-fluid row">
+        <div class="logoFooter col-xl-3 col-md-12"> <strong>SmashB</strong></div>
+        <ul class="col-xl-3 col-md-3">
+            <li class="listaFooter"><a class="headerLi" href="./pages/productos.html">Productos</a></li>
+            <li class="listaFooter"><a class="headerLi" href="./pages/contacto.html">Contacto</a></li>
         </ul>
-        <a class="logosRedes" href="https://www.facebook.com/">Facebook(logo)</a>
-        <a class="logosRedes" href="https://twitter.com/?lang=es">Twitter(logo)</a>
-        <a class="logosRedes" href="https://www.instagram.com/">Instagram(logo)</a>
+        <a class="logosRedes col-xl-1 col-md-2" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a class="logosRedes col-xl-1 col-md-2" href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+        <a class="logosRedes col-xl-1 col-md-2" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
 
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d436.837169035418!2d-56.62159272092132!3d-34.63666301171136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a19578cf2521f7%3A0xc43073662d058287!2sDestribuidores%20De%20Packing%20%3ABolsas%20%2CRollos%2C%20Film%2C%20Bandejas%20%2CPotes%20entre%20otros!5e0!3m2!1ses-419!2suy!4v1679948394001!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="logoFooter"> <strong>SmashB</strong></div>
+        <iframe class="map col-xl-3 col-md-2"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d436.837169035418!2d-56.62159272092132!3d-34.63666301171136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a19578cf2521f7%3A0xc43073662d058287!2sDestribuidores%20De%20Packing%20%3ABolsas%20%2CRollos%2C%20Film%2C%20Bandejas%20%2CPotes%20entre%20otros!5e0!3m2!1ses-419!2suy!4v1679948394001!5m2!1ses-419!2suy"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
     <!-- fin footer -->
     <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
